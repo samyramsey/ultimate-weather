@@ -12,7 +12,7 @@ It involves two functions:
 
 How to Run
 ----------------------------------
-Requires node.js installation on local machine. In the the terminal of your choice, type "node app.js", which serves as the main JavaScript file.
+Requires node.js installation on local machine. In the the terminal of your choice, navigate to the cloned ultimate-weather directory and type "node app.js", which serves as the main JavaScript file.
 
 Dependencies
 ----------------------------------
