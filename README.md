@@ -6,6 +6,7 @@ How it Works
 This app uses a location in the world that you specify through city and country and returns the current temperature using the metric system. The app uses OpenWeatherMap's free API to do so.
 
 It involves two functions:
+
 "weatherRetriever()": This is the main function which carries out the API fetching portion of the above purpose. Takes two parameters, city and country which OpenWeatherMap uses and then crafts a URL for the API to use to fetch the weather. My app uses Berlin, Germany as an example ("Berlin, DE"). The country code is specified by ISO3166 standard, which is internationally recognized.
 
 "getJSON(): This is a helper function which parses prepares the output using the Fetch API, getting the required JSON and parsing it for the requisite weather information. Outputs this information as an example, as well.
@@ -16,7 +17,7 @@ Requires node.js installation on local machine. In the the terminal of your choi
 
 Dependencies
 ----------------------------------
-npm package node-fetch version 3.2.0
+npm package node-fetch version 3.2.0 (included in repo)
 
 Ancillary Information
 ----------------------------------
